@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carros Esportivos</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Carros Esportivos</h1>
+        <nav>
+            <ul>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Velocidade e Design em Alta Performance</h2>
+            <p>Conheça os melhores carros esportivos do mundo.</p>
+        </section>
+
+        <section id="modelos">
+            <h2>Modelos Populares</h2>
+            <div class="car-list">
+                <article class="car" data-name="Ferrari F8 Tributo" data-speed="340" data-power="720">
+                    <img src="https://www.ferrari.com/images/auto/f8-tributo/hero.jpg" alt="Ferrari F8 Tributo" />
+                    <h3>Ferrari F8 Tributo</h3>
+                    <p>Velocidade máxima: 340 km/h</p>
+                    <p>Potência: 720 cv</p>
+                </article>
+                <article class="car" data-name="Porsche 911 Turbo S" data-speed="330" data-power="650">
+                    <img src="https://files.porsche.com/filestore/image/multimedia/none/modelseries-992-turbo-modelimage-sideshot/thumbwhite/7019a8e2-27d7-11ea-80c5-005056bbdc38;sM;twebp/porsche-thumbwhite.webp" alt="Porsche 911 Turbo S" />
+                    <h3>Porsche 911 Turbo S</h3>
+                    <p>Velocidade máxima: 330 km/h</p>
+                    <p>Potência: 650 cv</p>
+                </article>
+                <article class="car" data-name="Lamborghini Huracán EVO" data-speed="325" data-power="640">
+                    <img src="https://cdn.motor1.com/images/mgl/xqzNn/s1/lamborghini-huracan-evo.jpg" alt="Lamborghini Huracán EVO" />
+                    <h3>Lamborghini Huracán EVO</h3>
+                    <p>Velocidade máxima: 325 km/h</p>
+                    <p>Potência: 640 cv</p>
+                </article>
+            </div>
+            <button id="sortPowerBtn">Ordenar por Potência</button>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Carros Esportivos</h2>
+            <p>Carros esportivos são veículos projetados para oferecer alta performance, velocidade e design arrojado. São usados tanto para lazer quanto para competições.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Carros Esportivos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
